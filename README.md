@@ -1,6 +1,6 @@
 # Threads() 
 
-<img width="450" src="https://img.itch.zone/aW1nLzk0NDk0MTUucG5n/315x250%23c/2wQmyt.png">
+<img width="450" src="https://img.itch.zone/aW1nLzEwMjA5OTE3LnBuZw==/original/M2u1Ue.png">
 
 Threads is a game made in a week for the [Pygame Community Summer Jam 2022](https://itch.io/jam/pygame-community-summer-jam-2022).
 
