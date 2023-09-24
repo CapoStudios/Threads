@@ -8,10 +8,8 @@ from level7 import Level7
 
 class Levels():
 	def start():
-		Level1.start()
-		Level2.start()
-		Level3.start()
-		Level4.start()
-		Level5.start()
-		Level6.start()
-		Level7.start()
+		levels = [	Level1, Level2, Level3, Level4, 
+					Level5, Level6, Level7	]
+		for level in levels:
+			currentLevel = level()
+			currentLevel.start()

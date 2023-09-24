@@ -11,11 +11,10 @@ class Hammer:
 
 	def draw(self, screen, img):
 		if self.hasCollideWithPlayer == False:
-			screen.blit(pygame.transform.rotate(img, self.rotate), (self.x, self.y), (0, 0, self.w, self.w))
+			rotate_hammer = pygame.transform.rotate(img, self.rotate)
+			screen.blit(rotate_hammer, (self.x, self.y), (0, 0, self.w, self.w))
 			self.rotate += 1
 
-	def createRect(self):
-		return (self.x, self.y, self.w, self.h)
+	def createRect(self):	return (self.x, self.y, self.w, self.h)
 
-	def reset(self):
-		self.hasCollideWithPlayer = False
+	def reset(self): self.hasCollideWithPlayer = False
